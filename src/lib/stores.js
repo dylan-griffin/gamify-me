@@ -11,5 +11,6 @@ function persisted(key, init) {
   return store;
 }
 
-export const quests = persisted('quests', []);
-export const currentQuest = persisted('currentQuest', null);
+export const quest = persisted('quest', null);
+export const bouts = persisted('bouts', []);
+export const totalXP = persisted('totalXP', 0);
