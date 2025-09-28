@@ -11,5 +11,5 @@ function persisted(key, init) {
   return store;
 }
 
-export const tasks = persisted('tasks', []);
-export const currentTask = persisted('battle', null);
+export const quests = persisted('quests', []);
+export const currentQuest = persisted('currentQuest', null);

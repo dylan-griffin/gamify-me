@@ -1,1 +1,16 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin "daisyui" {
+    themes: dark;
+}
+
+@font-face {
+    font-family: 'RougeVintage';
+    src: url('/fonts/RougeVintage.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'RougeVintage', sans-serif;
+}
